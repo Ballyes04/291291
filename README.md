@@ -193,11 +193,11 @@ The big class imbalance in the original dataset does point to a key challenge. A
 
 What we highlighted during the EDA and the feature importance has at last turned out to be crucial to estimate key drivers for the success of the bonding process:
 - Among these, **`BondingRiskRating` was the most relevant variable**, highlighting the need for risk reduction.
-- Similarly, features like `ProcessedKilograms` and `RequestedProcessAmount` are indicative of thresholds beyond which significant drops in success rates occur. Smaller processed volumes (< 100,000 kg) tend to be associated with successful bonding, while failures increase with larger batches
-- Secondly, the interaction of variables such as `ProcessedKilograms`, `MonthlyExecutions`, and `RequestedProcessAmount` shows that, for any increase in the success rate, proper balancing needs to be made between high-volume operations with control on the quality aspects
+- Similarly, features like `ProcessedKilograms` and `RequestedProcessAmount` are indicative of thresholds beyond which **significant drops in success rates occur**. Smaller processed volumes (< 100,000 kg) tend to be associated with successful bonding, while failures increase with larger batches
+- Secondly, the interaction of variables such as `ProcessedKilograms`, `MonthlyExecutions`, and `RequestedProcessAmount` shows that, for any increase in the success rate, **proper balancing needs to be made** between high-volume operations with control on the quality aspects
 - Another key insight regards workforce characteristics. Bonding is most successful among individuals with moderate work experience. Very low experience (< 5 years) may indicate a lack of requisite skills, while very high experience (> 30 years) may be associated with decreasing performance over time. This trend highlights the need to strike a balance in workforce composition to ensure optimal outcomes
 
-Wrapping up, we found that scalability will definitely become an issue towards success. Moreover, maintaining equilibrium between operational scale and quality control, as well as finding the right balance in workforce composition frame perfectly our concept of a product ready for the market.
+Wrapping up, we found that scalability will definitely become an obstacle towards success. Moreover, maintaining equilibrium between operational scale and quality control, as well as finding the right balance in workforce composition frame perfectly our concept of a product ready for the market.
 
 Concretely, this is what we suggest improving:
 1. **Operational and Procedural Refinements**:
